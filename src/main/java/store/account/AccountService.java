@@ -55,4 +55,9 @@ public class AccountService {
             throw new RuntimeException("Error while hashing password", e);
         }
     }
+
+    public Account findByEmailAndPassword(String email, String password) {
+        String sha256 = calcHash(password);
+        return accountRepository.findByEmailAndPasswordSha256(email, sha256).orElse(null).to();
+    }
 }
