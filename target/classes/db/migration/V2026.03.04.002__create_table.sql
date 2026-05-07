@@ -1,5 +1,0 @@
-CREATE TABLE accounts.accounts (
-    id VARCHAR(32) PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE
-);

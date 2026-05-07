@@ -1,1 +1,0 @@
-CREATE INDEX idx_email_sha256 ON account (email, sha256);

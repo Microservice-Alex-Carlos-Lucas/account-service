@@ -1,8 +1,0 @@
-store/account/AccountModel.class
-store/account/AccountRepository.class
-store/account/AccountService.class
-store/account/Account$AccountBuilder.class
-store/account/AccountApplication.class
-store/account/Account.class
-store/account/AccountParser.class
-store/account/AccountResource.class
