@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: account-configmap
+data:
+  DATABASE_HOST: store-db.c5wse42uq3ya.us-east-1.rds.amazonaws.com
+  DATABASE_PORT: "5432"
+  DATABASE_DB: store
